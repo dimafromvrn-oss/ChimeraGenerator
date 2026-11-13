@@ -1,4 +1,4 @@
-﻿using HimeraLab.Data;
+﻿using ChimeraLab.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

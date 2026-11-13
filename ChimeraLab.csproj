@@ -6,7 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>HimeraLab</RootNamespace>
-    </PropertyGroup>
+      <UserSecretsId>edb2ac46-8dfc-422e-87ae-cc5c3a61bc96</UserSecretsId>
+  </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />

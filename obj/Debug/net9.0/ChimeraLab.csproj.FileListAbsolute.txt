@@ -128,3 +128,4 @@ C:\Users\Dima\RiderProjects\HimeraLab\ChimeraLab\obj\Debug\net9.0\refint\Chimera
 C:\Users\Dima\RiderProjects\HimeraLab\ChimeraLab\obj\Debug\net9.0\ChimeraLab.pdb
 C:\Users\Dima\RiderProjects\HimeraLab\ChimeraLab\obj\Debug\net9.0\ChimeraLab.genruntimeconfig.cache
 C:\Users\Dima\RiderProjects\HimeraLab\ChimeraLab\obj\Debug\net9.0\ref\ChimeraLab.dll
+C:\Users\Dima\RiderProjects\HimeraLab\ChimeraLab\obj\Debug\net9.0\ChimeraLab.sourcelink.json

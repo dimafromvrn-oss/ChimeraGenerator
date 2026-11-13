@@ -1,7 +1,6 @@
 ﻿namespace HimeraLab.Entities;
 
-public class SpeedType
+public class SpeedType : BaseEntity
 {
-    public int Id { get; set; }
     public string TypeSpeed { get; set; } = null!;
 }

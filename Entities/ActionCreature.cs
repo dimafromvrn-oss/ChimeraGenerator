@@ -1,9 +1,7 @@
 ﻿namespace HimeraLab.Entities;
 
-public class ActionCreature
+public class ActionCreature : BaseEntity
 {
-    public int IdAction { get; set; }
-    public Action Action { get; set; } = null!;
-    public int IdCreature { get; set; }
-    public Creature Creature { get; set; } = null!;
+    public Guid IdAction { get; set; }
+    public Guid IdCreature { get; set; }
 }

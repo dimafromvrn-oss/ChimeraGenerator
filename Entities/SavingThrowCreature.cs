@@ -1,9 +1,7 @@
 ﻿namespace HimeraLab.Entities;
 
-public class SavingThrowCreature
+public class SavingThrowCreature : BaseEntity
 {
-    public int IdSave { get; set; }
-    public SavingThrow SavingThrow { get; set; } = null!;
-    public int IdCreature { get; set; }
-    public Creature Creature { get; set; } = null!;
+    public Guid IdSave { get; set; }
+    public Guid IdCreature { get; set; }
 }

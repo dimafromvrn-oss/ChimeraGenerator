@@ -1,10 +1,8 @@
 ﻿namespace HimeraLab.Entities;
 
-public class LanguageCreature
+public class LanguageCreature : BaseEntity
 {
-    public int IdLanguage { get; set; }
-    public Language Language { get; set; } = null!;
-    public int IdCreature { get; set; }
-    public Creature Creature { get; set; } = null!;
+    public Guid IdLanguage { get; set; }
+    public Guid IdCreature { get; set; }
     public bool CanSpeak { get; set; }
 }

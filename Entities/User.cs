@@ -1,12 +1,10 @@
 ﻿namespace HimeraLab.Entities;
 
-public class User
+public class User : BaseEntity
 {
-    public int Id { get; set; }
     public string Login { get; set; } = null!;
     public string PasswordHash { get; set; } = null!;
     
-    public int IdRole { get; set; }
-    public Role Role { get; set; } = null!;
+    public Guid IdRole { get; set; }
     public ICollection<Saved> SavedItems { get; set; } = new List<Saved>();
 }

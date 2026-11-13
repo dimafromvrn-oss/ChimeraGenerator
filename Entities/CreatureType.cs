@@ -1,7 +1,6 @@
 ﻿namespace HimeraLab.Entities;
 
-public class CreatureType
+public class CreatureType : BaseEntity
 {
-    public int Id { get; set; }
     public string Name { get; set; } = null!;
 }
