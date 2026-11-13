@@ -1,4 +1,6 @@
-﻿namespace HimeraLab.Entities;
+﻿using System;
+
+namespace HimeraLab.Entities;
 
 public class CreatureFeat : BaseEntity
 {

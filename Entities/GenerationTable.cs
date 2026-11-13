@@ -1,4 +1,6 @@
-﻿namespace HimeraLab.Entities;
+﻿using System.Collections.Generic;
+
+namespace HimeraLab.Entities;
 
 public class GenerationTable : BaseEntity
 {

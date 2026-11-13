@@ -1,4 +1,7 @@
-﻿namespace HimeraLab.Entities;
+﻿using System;
+using System.Collections.Generic;
+
+namespace HimeraLab.Entities;
 
 public class Creature : BaseEntity
 {

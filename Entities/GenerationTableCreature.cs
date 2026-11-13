@@ -1,6 +1,9 @@
-﻿namespace HimeraLab.Entities;
+﻿using System;
 
-public class GenerationTableCreature : BaseEntity
+namespace HimeraLab.Entities;
+
+public class 
+    GenerationTableCreature : BaseEntity
 {
     public Guid IdTable { get; set; }
     public Guid IdCreature { get; set; }
